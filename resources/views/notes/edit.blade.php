@@ -25,7 +25,7 @@
         @endif
 
       <div class="col">
-        <form action="{{route('note.update',['id'=>$note->id])}}" method="POST" enctype="multipart/form-data">
+        <form action="{{route('note.update',['id'=>$note->id])}}" method="POST" >
         @csrf
             <div class="form-group">
               <label for="exampleFormControlInput1">Title</label>
